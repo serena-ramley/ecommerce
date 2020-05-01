@@ -1,6 +1,7 @@
 ## Notable Features
 
 1. Locally sourced images (see src/components/directory/directory.component.jsx and src/components/menu-item/menu-item.component.jsx)
+2. Styling with scss for organized subcategory styling (see src/components/menu-item/menu-item.styles.scss)
 
 ## Available Scripts
 
