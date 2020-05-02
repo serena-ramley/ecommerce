@@ -7,7 +7,11 @@
 
       (see src/components/menu-item/menu-item.styles.scss)
 #### 3. Routing with React-Router-Dom to achieve browser navigation as a Single-Page-Application
+
+      (see App.js)
 #### 4. Using Switch to render only one component at a time
+
+      (see App.js)
 #### 5. Hover "grow" effects without overflow
 
       (see src/components/menu-item/menu-item.styles.scss)
