@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import "./App.css";
+import ShopPage from "./pages/shop/shop.component";
 
 import HomePage from "./pages/homepage/homepage.component";
 
@@ -29,7 +30,7 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/flowers" component={FlowersPage} />
+        <Route path="/shop" component={ShopPage} />
         {/* <Route exact path="/itemlist" component={List} />
         <Route exact={false} path="/itemlist/:topicid" component={Detail} /> */}
         {/* <HomePage /> */}
