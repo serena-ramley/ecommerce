@@ -19,39 +19,45 @@ class Directory extends React.Component {
         {
           title: 'flowers',
           imageUrl: flowers,
-          id: 1
+          id: 1,
+          linkUrl: 'flowers'
         },
         {
           title: 'succulents',
           imageUrl: succulents,
-          id: 2
+          id: 2,
+          linkUrl: ''
         },
         {
           title: 'fruits',
           imageUrl: fruits,
-          id: 3
+          id: 3,
+          linkUrl: ''
         },
         {
           title: 'greens',
           imageUrl: greens,
           size: 'large',
-          id: 4
+          id: 4,
+          linkUrl: ''
         },
         {
           title: 'herbs',
           imageUrl: herbs,
           size: 'large',
-          id: 5
+          id: 5,
+          linkUrl: ''
         }
       ]
     };
   }
 
+  // Props contains history and match
   render() {
     return (
       <div className='directory-menu'>
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ title, imageUrl, id, size, ...props}) => (
+          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size}  {...props} />
         ))}
       </div>
     );
