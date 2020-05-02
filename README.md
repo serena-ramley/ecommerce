@@ -22,6 +22,10 @@
 
       (see src/components/header/header.component.jsx)
 
+#### 8. Removed default text decoration from Links
+
+      (see App.css)
+
 ## Available Scripts
 
 In the project directory, you can run:
