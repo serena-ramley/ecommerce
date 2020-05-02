@@ -4,7 +4,8 @@
 2. Styling with scss for organized subcategory styling (see src/components/menu-item/menu-item.styles.scss)
 3. Routing with React-Router-Dom to achieve browser navigation as a Single-Page-Application
 4. Using Switch to render only one component at a time
-5. Hover "grow" effects without overflow (in src/components/menu-item/menu-item.styles.scss)
+5. Hover "grow" effects without overflow (see src/components/menu-item/menu-item.styles.scss)
+6. withRouter, onClick and the use of "match" from props to navigate pages (see src/components/directory/directory.component.jsx and src/components/menu-item/menu-item.component.jsx)
 
 ## Available Scripts
 
