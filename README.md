@@ -13,7 +13,7 @@
       (see src/components/menu-item/menu-item.styles.scss)
 #### 6. withRouter, onClick and the use of "match" from props to navigate pages 
 
-      see src/components/directory/directory.component.jsx and src/components/menu-item/menu-item.component.jsx)
+      (see src/components/directory/directory.component.jsx and src/components/menu-item/menu-item.component.jsx)
 #### 7. svg Logo import
 
       (see src/components/header/header.component.jsx)
