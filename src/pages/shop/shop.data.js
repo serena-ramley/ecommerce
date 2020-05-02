@@ -32,7 +32,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 100,
-        name: "lily-of-the-valley",
+        name: "lily of the valley",
         imageUrl: lilyofthevalley,
         price: 10,
       },
