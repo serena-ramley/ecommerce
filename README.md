@@ -26,7 +26,7 @@
 
       (see App.css)
 
-#### 9. form handles
+#### 9. Form handles
 
       (see src/components/sign-in/sign-in.component.jsx)
 
