@@ -5,7 +5,7 @@ on:
   - cron: 55 21 * * 2
 
 jobs:
-  update:
+  package-update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
