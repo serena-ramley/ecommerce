@@ -1,8 +1,7 @@
 name: Update
 
 on:
-  schedule:
-  - cron: 27 21 * * 2
+  pull_request
 
 jobs:
   update:
