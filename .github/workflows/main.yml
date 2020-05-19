@@ -13,9 +13,10 @@ jobs:
     - name: package-update
       uses: taichi/actions-package-update@v0.5.0
       env:
-        AUTHOR_EMAIL: isochores@gmail.com
+        AUTHOR_EMAIL: example@example.com
         AUTHOR_NAME: ActionBot
         EXECUTE: "true"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        UPDATE_COMMAND: yarn
       with:
-        args: -u --packageFile package.json --loglevel verbose
+        args: upgrade --latest
