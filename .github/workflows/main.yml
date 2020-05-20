@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 20 17 * * 3
+  - cron: 56 19 * * 3
 name: Update
 jobs:
   package-update:
@@ -16,6 +16,7 @@ jobs:
         AUTHOR_NAME: bot
         EXECUTE: "true"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COMMIT_MESSAGE: Update dependencies
         LOG_LEVEL: debug
       with:
         args: -u --packageFile package.json --loglevel verbose
