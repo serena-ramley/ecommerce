@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 30 16 * * 4
+  - cron: 30 16 1 * *
 name: Update
 jobs:
   package-update:
