@@ -30,6 +30,10 @@
 
       (see src/components/sign-in/sign-in.component.jsx)
 
+#### 9. Firebase Authentication
+
+      (see src/components/sign-in/sign-in.component.jsx and src/firebase/firebase.utils.js)
+
 ## Available Scripts
 
 In the project directory, you can run:
