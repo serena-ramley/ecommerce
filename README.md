@@ -34,6 +34,10 @@
 
       (see src/components/sign-in/sign-in.component.jsx and src/firebase/firebase.utils.js)
 
+#### 9. Ternerary Operator
+
+      (see src\components\header\header.component.jsx)
+
 ## Available Scripts
 
 In the project directory, you can run:
