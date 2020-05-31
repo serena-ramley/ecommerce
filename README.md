@@ -30,11 +30,11 @@
 
       (see src/components/sign-in/sign-in.component.jsx)
 
-#### 9. Firebase Authentication
+#### 10. Firebase Authentication
 
       (see src/components/sign-in/sign-in.component.jsx and src/firebase/firebase.utils.js)
 
-#### 9. Ternerary Operator
+#### 11. Ternerary Operator
 
       (see src\components\header\header.component.jsx)
 
