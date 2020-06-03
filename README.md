@@ -32,7 +32,7 @@
 
 #### 10. Firebase Authentication
 
-      (see src/components/sign-in/sign-in.component.jsx and src/firebase/firebase.utils.js)
+      (see src/components/sign-in/sign-in.component.jsx,  src/components/sign-up/sign-up.component.jsx and src/firebase/firebase.utils.js)
 
 #### 11. Ternerary Operator
 
