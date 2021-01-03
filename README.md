@@ -38,9 +38,13 @@
 
       (see src\components\header\header.component.jsx)
 
-#### 11. Redux
+#### 12. Redux
 
       (see src\redux\root-reducer, src\redux\cart and src\components\cart-icon\cart-icon.component.jsx for variables that can't be passed in a parent-child component relationship as several components access these variables)
+
+#### 11. Redux Connect and mapDispatchToProps
+
+      (see src\components\cart-icon\cart-icon.component.jsx - this is an older style, which is now replaced by Hooks)
 
 ## Available Scripts
 
