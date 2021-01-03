@@ -40,7 +40,7 @@
 
 #### 11. Redux
 
-      (see src\redux for variables that can't be passed in a parent-child component relationship as several components access these variables)
+      (see src\redux\root-reducer, src\redux\cart and src\components\cart-icon\cart-icon.component.jsx for variables that can't be passed in a parent-child component relationship as several components access these variables)
 
 ## Available Scripts
 
