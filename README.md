@@ -1,5 +1,3 @@
-## Preview
-
 <img src="https://github.com/serena-ramley/ecommerce/blob/master/app-preview.png" width="1000px" />
 
 
