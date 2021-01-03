@@ -38,6 +38,10 @@
 
       (see src\components\header\header.component.jsx)
 
+#### 11. Redux
+
+      (see src\redux for variables that can't be passed in a parent-child component relationship as several components access these variables)
+
 ## Available Scripts
 
 In the project directory, you can run:
