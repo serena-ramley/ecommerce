@@ -47,7 +47,11 @@
 
 #### 11. Redux Connect and mapDispatchToProps
 
-      (see src\components\cart-icon\cart-icon.component.jsx - this is an older style, which is now replaced by Hooks)
+      (see src\components\cart-icon\cart-icon.component.jsx - this style is replaced with Hooks in projects using React v16+)
+
+#### 11. Redux Actions with a type and payload
+
+      (see src\redux\cart\cart.actions.js)
 
 ## Available Scripts
 
