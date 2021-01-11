@@ -53,7 +53,7 @@
 
       (see src\redux\cart\cart.actions.js)
       
-#### 12. reduce (native Javascript)
+#### 12. Redux selector using reduce (native Javascript)
 
       (see src\components\cart-icon\cart-icon.component.jsx)
 
