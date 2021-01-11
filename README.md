@@ -53,9 +53,9 @@
 
       (see src\redux\cart\cart.actions.js)
       
-#### 12. Redux selector using reduce (native Javascript)
+#### 12. Redux selector, 'reselect' library, memoization and reduce
 
-      (see src\components\cart-icon\cart-icon.component.jsx)
+      (see src\components\cart-icon\cart-icon.component.jsx and src\redux\cart\cart.selector.js)
 
 ## Available Scripts
 
