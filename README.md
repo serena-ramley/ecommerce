@@ -52,6 +52,10 @@
 #### 11. Redux Actions with a type and payload
 
       (see src\redux\cart\cart.actions.js)
+      
+#### 12. reduce (native Javascript)
+
+      (see src\components\cart-icon\cart-icon.component.jsx)
 
 ## Available Scripts
 
