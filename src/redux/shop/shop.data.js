@@ -24,9 +24,8 @@ import cilantro from "../../assets/images/cilantro.jpg";
 import parsley from "../../assets/images/parsley.jpg";
 import thyme from "../../assets/images/thyme.jpg";
 
-const SHOP_DATA = [
-  {
-    title: "flowers",
+const SHOP_DATA = {
+  flowers: {
     id: 1,
     routeName: "flowers",
     items: [
@@ -56,8 +55,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
-    title: "succulents",
+  succulents: {
     id: 2,
     routeName: "",
     items: [
@@ -87,8 +85,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
-    title: "fruits",
+  fruits: {
     id: 3,
     routeName: "",
     items: [
@@ -118,8 +115,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
-    title: "greens",
+  greens: {
     size: "large",
     id: 4,
     routeName: "",
@@ -150,8 +146,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
-    title: "herbs",
+  herbs: {
     size: "large",
     id: 5,
     routeName: "",
@@ -182,6 +177,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
