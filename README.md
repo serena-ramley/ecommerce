@@ -55,7 +55,7 @@
       
 #### 12. Redux selector, 'reselect' library, memoization and reduce
 
-      (see src\components\cart-icon\cart-icon.component.jsx and src\redux\cart\cart.selector.js)
+      (see src\components\cart-icon\cart-icon.component.jsx and src\redux\cart\cart.selectors.js)
 
 #### 12. Redux persist for local session storage
 
