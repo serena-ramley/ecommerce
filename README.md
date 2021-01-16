@@ -61,7 +61,7 @@
 
       (see src\index.js, src\redux\root-reducer.js, src\redux\store.js)
       
-#### 13. Nested routing, use of match.params for a path id, currying (with memoize) and lookup table
+#### 13. Nested routing, use of match.params for a path id, currying (with memoize) and hash table lookup (by storing data in an object and calling the key)
 
       (see src\pages\shop\shop.component.jsx, src\pages\collection\collection.component.jsx, src\redux\shop\shop.selectors.js)
 
