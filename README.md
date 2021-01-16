@@ -57,6 +57,10 @@
 
       (see src\components\cart-icon\cart-icon.component.jsx and src\redux\cart\cart.selector.js)
 
+#### 12. Redux persist for local session storage
+
+      (see src\index.js, src\redux\root-reducer.js, src\redux\store.js)
+
 ## Available Scripts
 
 In the project directory, you can run:
