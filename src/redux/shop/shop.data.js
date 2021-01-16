@@ -27,6 +27,7 @@ import thyme from "../../assets/images/thyme.jpg";
 const SHOP_DATA = {
   flowers: {
     id: 1,
+    title: "Flowers",
     routeName: "flowers",
     items: [
       {
@@ -57,6 +58,7 @@ const SHOP_DATA = {
   },
   succulents: {
     id: 2,
+    title: "Succulents",
     routeName: "",
     items: [
       {
@@ -87,6 +89,7 @@ const SHOP_DATA = {
   },
   fruits: {
     id: 3,
+    title: "Fruits",
     routeName: "",
     items: [
       {
@@ -116,8 +119,9 @@ const SHOP_DATA = {
     ],
   },
   greens: {
-    size: "large",
     id: 4,
+    title: "Greens",
+    size: "large",
     routeName: "",
     items: [
       {
@@ -147,8 +151,9 @@ const SHOP_DATA = {
     ],
   },
   herbs: {
-    size: "large",
     id: 5,
+    title: "Herbs",
+    size: "large",
     routeName: "",
     items: [
       {
