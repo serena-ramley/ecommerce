@@ -1,4 +1,4 @@
-import React from "core-js/library/fn/reflect/es7/metadata";
+import React from "react";
 import { connect } from "react-redux";
 
 import {
@@ -41,4 +41,4 @@ const mapDispatchToProps = (dispatch) => ({
   removeItem: (item) => dispatch(removeItem(item)),
 });
 
-export default connect(mapDispatchToProps)(CheckoutItem);
+export default connect(null, mapDispatchToProps)(CheckoutItem);
