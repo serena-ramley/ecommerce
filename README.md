@@ -1,8 +1,5 @@
 View live on https://ecommerce-garden-shop-live.herokuapp.com/
 
-<img src="https://github.com/serena-ramley/ecommerce/blob/master/app-preview.png" width="1000px" />
-
-
 ## Notable Features
 
 #### 1. Locally sourced images
@@ -67,6 +64,10 @@ View live on https://ecommerce-garden-shop-live.herokuapp.com/
 
       (see src\pages\shop\shop.component.jsx, src\pages\collection\collection.component.jsx, src\redux\shop\shop.selectors.js)
 
+#### 14. CSS-in-JS using the styled-components library
+
+      (see src\components\homepage\homepage.styles.jsx and homepage.component.jsx)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -78,3 +79,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+View live on https://ecommerce-garden-shop-live.herokuapp.com/
+<img src="https://github.com/serena-ramley/ecommerce/blob/master/app-preview.png" width="1000px" />
