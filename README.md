@@ -66,7 +66,7 @@ View live on https://ecommerce-garden-shop-live.herokuapp.com/
 
 #### 14. CSS-in-JS using the styled-components library
 
-      I tend to use materialUI makeStyles more often than styled-components, but I recognize that styled components have the benefit of making it immediately apparent which styles are used in the code vs which styled components are no longer used
+      While there are benefits to the other approaches (e.g. Material UI makestyles), styled components have the benefit of making it immediately apparent if some styling code is deprecated. A drawback is that, depending on different conventions, it may be difficult to differentiate between functional components vs styled components.
       (see src\components\homepage\homepage.styles.jsx and homepage.component.jsx)
 
 ## Available Scripts
